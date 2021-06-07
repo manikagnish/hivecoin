@@ -42,7 +42,8 @@ function Navbar() {
               </li>
             );
           })}
-          <div className="settings">
+          <hr className="settings" />
+          <div>
             <li className="nav-text ">
               <Link to="settings">
                 <FiIcons.FiSettings />
