@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #e9842c;
+  --color-primary-dark: #e35b30;
+
+  --color-white: #fff;
+  --color-black: #111;
+  --color-grey: #9c9c9c;
+  --color-grey-light: #cfcfcf;
+  --color-grey-dark: #474747;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--color-black);
+}
+
+.center {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
