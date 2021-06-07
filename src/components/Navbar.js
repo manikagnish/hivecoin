@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
+import * as FiIcons from "react-icons/fi";
+import { GoSignOut } from "react-icons/go";
+import { GiTreeBeehive } from "react-icons/gi";
 import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
-import { IconContext } from "react-icons";
+// import { IconContext } from "react-icons";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -13,32 +16,55 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "var(--color-white)" }}>
-        <div className="navbar">
-          <Link to="#" className="menu-bars">
-            <FaIcons.FaBars onClick={showSidebar} />
-          </Link>
-        </div>
-        <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-          <ul className="nav-menu-items" onClick={showSidebar}>
-            <li className="nav-toggle">
-              <Link to="#" className="menu-bars">
-                <AiIcons.AiOutlineClose />
+      {/* <IconContext.Provider
+        value={{ color: "var(--color-white)", className: "icon-hover" }}
+      > */}
+      <div className="navbar">
+        <Link to="#" className="menu-bars">
+          <FaIcons.FaBars onClick={showSidebar} />
+        </Link>
+      </div>
+      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+        <ul className="nav-menu-items" onClick={showSidebar}>
+          <li className="nav-toggle">
+            <Link to="#" className="menu-bars">
+              <GiTreeBeehive />
+              <span>HIVECOIN</span>
+            </Link>
+          </li>
+          {SidebarData.map((item, index) => {
+            return (
+              <li key={index} className={item.cName}>
+                <Link to={item.path}>
+                  {item.icon}
+                  <span>{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
+          <div className="settings">
+            <li className="nav-text ">
+              <Link to="settings">
+                <FiIcons.FiSettings />
+                <span>Settings</span>
               </Link>
             </li>
-            {SidebarData.map((item, index) => {
-              return (
-                <li key={index} className={item.cName}>
-                  <Link to={item.path}>
-                    {item.icon}
-                    <span>{item.title}</span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </nav>
-      </IconContext.Provider>
+            <li className="nav-text">
+              <Link to="login">
+                <GoSignOut />
+                <span>Sign Out</span>
+              </Link>
+            </li>
+          </div>
+          <li className="nav-text sup-chat">
+            <Link to="chat">
+              <AiIcons.AiOutlineMessage />
+              <span>Support Chat</span>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      {/* </IconContext.Provider> */}
     </>
   );
 }
