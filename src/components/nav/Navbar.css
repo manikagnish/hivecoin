@@ -1,4 +1,4 @@
-.navbar {
+.navbar-local {
   background-color: var(--color-white);
   height: 7rem;
   display: grid;
@@ -24,6 +24,17 @@
   margin-right: 4vw;
 }
 
+.dropdown-items-text {
+  font-size: 1.4rem !important;
+}
+
+.dropdown-menu {
+  padding: 1rem 2rem !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
 .menu-bars {
   margin-left: 1.2rem;
   font-size: 4rem;
@@ -37,6 +48,10 @@
 .menu-bars span {
   font-size: 1.9rem;
   font-weight: bold;
+}
+
+.menu-bars:hover {
+  color: var(--color-white);
 }
 
 .nav-menu {
@@ -138,4 +153,11 @@
 .sup-chat a {
   background-color: rgba(233, 154, 85, 0.363);
   border-radius: 4px;
+}
+
+.profile-photo {
+  background-color: var(--color-white) !important;
+  border: none !important;
+  padding-top: 1rem !important;
+  outline: 0 !important;
 }

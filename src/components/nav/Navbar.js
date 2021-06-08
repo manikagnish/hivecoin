@@ -6,18 +6,18 @@ import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
-import User from "../user/User";
+import NavDropdown from "./NavDropdown";
 
 function Navbar(props) {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar-local">
         <div className="page-title">
           {props.icon}
           <span>{props.name}</span>
         </div>
         <div className="user-profile-photo">
-          <User />
+          <NavDropdown />
         </div>
       </div>
       <nav className="nav-menu active">
