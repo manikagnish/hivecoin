@@ -25,8 +25,20 @@ body {
   color: var(--color-black);
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-black);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
 .center {
-  height: 85vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;

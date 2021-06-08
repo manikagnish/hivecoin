@@ -29,7 +29,7 @@ function Navbar() {
           <li className="nav-toggle">
             <Link to="#" className="menu-bars">
               <GiTreeBeehive />
-              <span>HIVECOIN</span>
+              <span className="link-text">HIVECOIN</span>
             </Link>
           </li>
           {SidebarData.map((item, index) => {
@@ -37,7 +37,7 @@ function Navbar() {
               <li key={index} className={item.cName}>
                 <Link to={item.path}>
                   {item.icon}
-                  <span>{item.title}</span>
+                  <span className="link-text">{item.title}</span>
                 </Link>
               </li>
             );
@@ -46,21 +46,21 @@ function Navbar() {
           <div>
             <li className="nav-text ">
               <Link to="settings">
-                <FiIcons.FiSettings />
-                <span>Settings</span>
+                <FiIcons.FiSettings className="link-icon" />
+                <span className="link-text">Settings</span>
               </Link>
             </li>
             <li className="nav-text">
               <Link to="login">
-                <GoSignOut />
-                <span>Sign Out</span>
+                <GoSignOut className="link-icon" />
+                <span className="link-text">Sign</span>
               </Link>
             </li>
           </div>
           <li className="nav-text sup-chat">
             <Link to="chat">
-              <AiIcons.AiOutlineMessage />
-              <span>Support Chat</span>
+              <AiIcons.AiOutlineMessage className="link-icon" />
+              <span className="link-text">Chat</span>
             </Link>
           </li>
         </ul>

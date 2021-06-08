@@ -18,19 +18,19 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "My Deals",
+    title: "Deals",
     path: "/deals",
     icon: <RiIcons.RiFileListLine />,
     cName: "nav-text",
   },
   {
-    title: "Guarded Deals",
+    title: "Deals",
     path: "/gDeals",
     icon: <SiIcons.SiGnuprivacyguard />,
     cName: "nav-text",
   },
   {
-    title: "My wallet",
+    title: "wallet",
     path: "/wallet",
     icon: <RiIcons.RiWallet3Line />,
     cName: "nav-text",
