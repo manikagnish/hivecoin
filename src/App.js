@@ -7,6 +7,9 @@ import GDeals from "./pages/GDeals";
 import Wallet from "./pages/Wallet";
 import Support from "./pages/Support";
 import Home from "./pages/Home";
+import Settings from "./pages/Settings";
+import Login from "./pages/Login";
+import Chat from "./pages/Chat";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route path="/gDeals" component={GDeals} />
           <Route path="/wallet" component={Wallet} />
           <Route path="/support" component={Support} />
+          <Route path="/settings" component={Settings} />
+          <Route path="/login" component={Login} />
+          <Route path="/chat" component={Chat} />
         </Switch>
       </Router>
     </>

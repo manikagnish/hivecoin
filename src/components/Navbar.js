@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import * as FaIcons from "react-icons/fa";
+import React from "react";
 import * as FiIcons from "react-icons/fi";
 import { GoSignOut } from "react-icons/go";
 import { GiTreeBeehive } from "react-icons/gi";
@@ -7,25 +6,23 @@ import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
-// import { IconContext } from "react-icons";
 
 function Navbar() {
-  const [sidebar, setSidebar] = useState(false);
+  // const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  // const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <>
-      {/* <IconContext.Provider
-        value={{ color: "var(--color-white)", className: "icon-hover" }}
-      > */}
       <div className="navbar">
-        <Link to="#" className="menu-bars">
+        {/* <Link to="#" className="menu-bars">
           <FaIcons.FaBars onClick={showSidebar} />
-        </Link>
+        </Link> */}
       </div>
-      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-        <ul className="nav-menu-items" onClick={showSidebar}>
+      {/* <nav className={sidebar ? "nav-menu active" : "nav-menu"}> */}
+      <nav className="nav-menu active">
+        {/* <ul className="nav-menu-items" onClick={showSidebar}> */}
+        <ul className="nav-menu-items">
           <li className="nav-toggle">
             <Link to="#" className="menu-bars">
               <GiTreeBeehive />
@@ -45,7 +42,7 @@ function Navbar() {
           <hr className="settings" />
           <div>
             <li className="nav-text ">
-              <Link to="settings">
+              <Link to="/settings">
                 <FiIcons.FiSettings className="link-icon" />
                 <span className="link-text">Settings</span>
               </Link>
@@ -65,7 +62,6 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      {/* </IconContext.Provider> */}
     </>
   );
 }

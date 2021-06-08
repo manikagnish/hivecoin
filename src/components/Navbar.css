@@ -12,7 +12,7 @@
   margin-left: 1.2rem;
   font-size: 4rem;
   background: none;
-  color: var(--color-primary-dark);
+  color: var(--color-white);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -35,16 +35,15 @@
   position: fixed;
   top: 0;
   left: -100%;
-  /* transition: width 200ms ease; */
-  transition-delay: 2s;
+  transition: width 200ms ease;
 }
 
 .nav-menu:hover {
-  width: 25.6rem;
+  width: 23rem;
 }
 
 .nav-menu:hover .link-text {
-  display: block;
+  display: inline;
 }
 
 .nav-menu.active {
