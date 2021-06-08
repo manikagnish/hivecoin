@@ -6,7 +6,7 @@ function Support() {
   return (
     <>
       <Navbar
-        name="Dashboard"
+        name="Support"
         icon={<HiOutlineSupport className="navbar-icon" />}
       />
       <div className="center">

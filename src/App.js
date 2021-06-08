@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard/Dashboard";
 import Buy from "./pages/Buy";
 import Deals from "./pages/Deals";
 import Wallet from "./pages/Wallet";
