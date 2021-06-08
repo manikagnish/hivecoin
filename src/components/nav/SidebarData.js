@@ -2,12 +2,11 @@ import React from "react";
 import * as HiIcons from "react-icons/hi";
 import * as GiIcons from "react-icons/gi";
 import * as RiIcons from "react-icons/ri";
-// import * as SiIcons from "react-icons/si";
 
 export const SidebarData = [
   {
     title: "Dashboard",
-    path: "/dashboard",
+    path: "/",
     icon: <RiIcons.RiDashboardLine className="link-icon" />,
     cName: "nav-text",
   },

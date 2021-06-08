@@ -9,17 +9,10 @@ import "./Navbar.css";
 import User from "../user/User";
 
 function Navbar(props) {
-  // const [sidebar, setSidebar] = useState(false);
-
-  // const showSidebar = () => setSidebar(!sidebar);
-
   return (
     <>
       <div className="navbar">
-        {/* <Link to="#" className="menu-bars">
-          <FaIcons.FaBars onClick={showSidebar} />
-        </Link> */}
-        <div>
+        <div className="page-title">
           {props.icon}
           <span>{props.name}</span>
         </div>
@@ -27,12 +20,10 @@ function Navbar(props) {
           <User />
         </div>
       </div>
-      {/* <nav className={sidebar ? "nav-menu active" : "nav-menu"}> */}
       <nav className="nav-menu active">
-        {/* <ul className="nav-menu-items" onClick={showSidebar}> */}
         <ul className="nav-menu-items">
           <li className="nav-toggle">
-            <Link to="#" className="menu-bars">
+            <Link to="/" className="menu-bars">
               <GiTreeBeehive />
               <span className="link-text">HIVECOIN</span>
             </Link>

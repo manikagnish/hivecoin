@@ -5,7 +5,6 @@ import Buy from "./pages/Buy";
 import Deals from "./pages/Deals";
 import Wallet from "./pages/Wallet";
 import Support from "./pages/Support";
-import Home from "./pages/Home";
 import Settings from "./pages/Settings";
 import Login from "./pages/Login";
 import Chat from "./pages/Chat";
@@ -17,8 +16,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/dashboard" component={Dashboard} />
+          <Route path="/" exact component={Dashboard} />
           <Route path="/buysell" component={Buy} />
           <Route path="/deals" component={Deals} />
           <Route path="/wallet" component={Wallet} />
