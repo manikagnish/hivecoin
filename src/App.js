@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Settings from "./pages/Settings";
 import Login from "./pages/Login";
 import Chat from "./pages/Chat";
+import LoginForm from "./components/form/LoginForm";
+import SignUpForm from "./components/form/SignUpForm";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/settings" component={Settings} />
           <Route path="/login" component={Login} />
           <Route path="/chat" component={Chat} />
+          <Route path="/loginform" component={LoginForm} />
+          <Route path="/signupform" component={SignUpForm} />
         </Switch>
       </Router>
     </>
