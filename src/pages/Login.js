@@ -1,11 +1,10 @@
 import React from "react";
+import Form from "../components/form/Form";
 
 function Login() {
   return (
     <>
-      <div className="center">
-        <h1>Login</h1>
-      </div>
+      <Form />
     </>
   );
 }

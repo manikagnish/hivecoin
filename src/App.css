@@ -7,6 +7,8 @@
   --color-grey: #9c9c9c;
   --color-grey-light: #cfcfcf;
   --color-grey-dark: #474747;
+
+  --color-error: #f00e0e;
 }
 
 * {
