@@ -1,11 +1,16 @@
 .navbar {
   background-color: var(--color-white);
   height: 7rem;
-  display: flex;
-  justify-content: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
   align-items: center;
   box-shadow: 0 5px 2rem rgb(0, 0, 0, 0.2);
   margin-left: 8rem;
+}
+
+.user-profile-photo {
+  margin-right: 4vw;
 }
 
 .menu-bars {

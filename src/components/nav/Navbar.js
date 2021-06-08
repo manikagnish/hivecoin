@@ -6,8 +6,9 @@ import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
+import User from "../user/User";
 
-function Navbar() {
+function Navbar(props) {
   // const [sidebar, setSidebar] = useState(false);
 
   // const showSidebar = () => setSidebar(!sidebar);
@@ -18,6 +19,13 @@ function Navbar() {
         {/* <Link to="#" className="menu-bars">
           <FaIcons.FaBars onClick={showSidebar} />
         </Link> */}
+        <div>
+          {props.icon}
+          <span>{props.name}</span>
+        </div>
+        <div className="user-profile-photo">
+          <User />
+        </div>
       </div>
       {/* <nav className={sidebar ? "nav-menu active" : "nav-menu"}> */}
       <nav className="nav-menu active">
@@ -50,7 +58,7 @@ function Navbar() {
             <li className="nav-text">
               <Link to="login">
                 <GoSignOut className="link-icon" />
-                <span className="link-text">Sign</span>
+                <span className="link-text">SignOut</span>
               </Link>
             </li>
           </div>
