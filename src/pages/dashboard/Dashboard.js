@@ -4,7 +4,9 @@ import * as RiIcons from "react-icons/ri";
 import "./Dashboard.scss";
 import { Container, Row, Col } from "reactstrap";
 import { GiTreeBeehive } from "react-icons/gi";
+import { IoIosArrowDropright } from "react-icons/io";
 import dollar from "../../images/dollar2.svg";
+import arrow from "../../images/arrow_circle.svg";
 
 function Dashboard() {
   return (
@@ -51,7 +53,12 @@ function Dashboard() {
           </Row>
           <Row>
             <Col xs="12" lg="6">
-              activity
+              <div className="dashboard__card dashboard__card-two dashboard__card-activity">
+                <div className="dashboard__card-two__header">
+                  <h2>Activity</h2>
+                  <IoIosArrowDropright className="icon" />
+                </div>
+              </div>
             </Col>
             <Col xs="12" lg="6">
               deals
