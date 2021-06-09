@@ -1,5 +1,5 @@
 import React from "react";
-import "./Form.css";
+import "./Form.scss";
 import Wd from "../../images/well_done_i2wr.svg";
 import { Link } from "react-router-dom";
 

@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: end;
   align-items: center;
-  box-shadow: 0 5px 2rem rgb(0, 0, 0, 0.2);
+  box-shadow: 0 5px 2rem rgba(0, 0, 0, 0.2);
   margin-left: 8rem;
 }
 
@@ -65,6 +65,7 @@
   display: flex;
   justify-content: center;
   position: fixed;
+  z-index: 999;
   top: 0;
   left: -100%;
   transition: width 200ms ease;

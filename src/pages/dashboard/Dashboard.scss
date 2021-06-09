@@ -1,0 +1,67 @@
+.dashboard {
+  margin-left: 8rem;
+
+  &__container {
+    padding-top: 5rem;
+  }
+
+  &__card {
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    &-balance {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .left {
+        .heading {
+          display: flex;
+          align-items: center;
+          font-size: 5rem;
+
+          h2 {
+            font-size: 4rem;
+            margin-left: 1rem;
+
+            @media (max-width: 500px) {
+              font-size: 3rem;
+            }
+          }
+        }
+        .subheading p {
+          margin-left: 18%;
+          opacity: 70%;
+        }
+      }
+
+      .right {
+        img {
+          height: 10rem;
+          opacity: 15%;
+          margin-right: 2vw;
+        }
+
+        @media (max-width: 500px) {
+          display: none;
+        }
+      }
+    }
+
+    &-balance--orange {
+      background-image: linear-gradient(
+        to right bottom,
+        var(--color-primary-dark) 30%,
+        var(--color-primary)
+      );
+    }
+
+    &-balance--white {
+      .balance-card-icon {
+        color: var(--color-primary);
+      }
+    }
+  }
+}

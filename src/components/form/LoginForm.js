@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Form.css";
+import "./Form.scss";
 import FormLogin from "./FormLogin";
 import FormSuccess from "./FormSuccess";
 import bee1 from "../../images/bee1.svg";

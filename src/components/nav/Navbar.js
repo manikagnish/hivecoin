@@ -5,7 +5,7 @@ import { GiTreeBeehive } from "react-icons/gi";
 import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
-import "./Navbar.css";
+import "./Navbar.scss";
 import NavDropdown from "./NavDropdown";
 
 function Navbar(props) {

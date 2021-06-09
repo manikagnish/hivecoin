@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Form.css";
+import "./Form.scss";
 import FormSignup from "./FormSignup";
 import FormSuccess from "./FormSuccess";
 import camp from "../../images/camp.svg";
