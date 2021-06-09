@@ -65,11 +65,9 @@
     }
 
     &-two {
-      &__header {
+      &__header--table {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1.5rem;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         margin: 2rem 1rem;
 
         // h2 {
@@ -80,6 +78,54 @@
           color: var(--color-primary);
         }
       }
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 2rem 1rem;
+
+        .icon {
+          font-size: 2.5rem;
+          color: var(--color-primary);
+        }
+      }
+    }
+
+    &-activity {
+      &__body {
+        padding: 0 1rem;
+
+        .bullet-icon {
+          color: rgb(23, 189, 23);
+        }
+
+        .td-1 {
+          h3 {
+            font-size: 1.6rem;
+            span {
+              color: red;
+              font-size: 2rem;
+              margin-left: -1.2rem;
+            }
+          }
+        }
+        .td-2 span {
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 2rem;
+          padding: 5px 10px 7px 10px;
+          color: var(--color-grey);
+          margin-right: 3rem;
+          @media (max-width: 500px) {
+            margin-right: 2rem;
+          }
+        }
+      }
     }
   }
+}
+
+.table td,
+.table th {
+  padding: 2rem 0 !important;
 }
