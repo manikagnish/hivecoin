@@ -1,6 +1,8 @@
 import React from "react";
 import { IoIosArrowDropright } from "react-icons/io";
-import photoRecip from "../../images/emn.jpg";
+import photoRecip1 from "../../images/emn.jpg";
+import photoRecip2 from "../../images/joe.jpg";
+import photoRecip3 from "../../images/img-9.jpg";
 import { Table } from "reactstrap";
 import { CgShapeCircle } from "react-icons/cg";
 
@@ -17,7 +19,7 @@ function RecipientCard() {
             <tr>
               <th scope="row">
                 <div className="recipient-img-container">
-                  <img src={photoRecip} alt="recipient" />
+                  <img src={photoRecip1} alt="recipient" />
 
                   <CgShapeCircle className="recipient-icon" />
                 </div>
@@ -37,7 +39,7 @@ function RecipientCard() {
             <tr>
               <th scope="row">
                 <div className="recipient-img-container">
-                  <img src={photoRecip} alt="recipient" />
+                  <img src={photoRecip2} alt="recipient" />
 
                   <CgShapeCircle className="recipient-icon" />
                 </div>
@@ -57,7 +59,7 @@ function RecipientCard() {
             <tr>
               <th scope="row">
                 <div className="recipient-img-container">
-                  <img src={photoRecip} alt="recipient" />
+                  <img src={photoRecip3} alt="recipient" />
 
                   <CgShapeCircle className="recipient-icon" />
                 </div>

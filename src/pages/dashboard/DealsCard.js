@@ -21,12 +21,12 @@ function Deals() {
               <span>
                 <CgShapeCircle />
               </span>
-              20 active deals
+              5 active deals
             </small>
           </li>
           <hr />
           <li>
-            <p>15.45678289 BTC</p>
+            <p>15.4567828 BTC</p>
             <small>
               <span>
                 <CgShapeCircle />
