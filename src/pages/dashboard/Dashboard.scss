@@ -26,7 +26,7 @@
           font-size: 5rem;
 
           h2 {
-            font-size: 4rem;
+            font-size: 3.5rem;
             margin-left: 1rem;
 
             @media (max-width: 500px) {
@@ -156,6 +156,13 @@
         small.active span {
           color: rgb(42, 177, 42);
         }
+      }
+    }
+
+    &-stats {
+      &__body {
+        padding: 1.5rem 1rem;
+        font-size: 1.3rem !important;
       }
     }
   }

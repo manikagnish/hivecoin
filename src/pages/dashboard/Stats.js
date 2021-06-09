@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosArrowDropright } from "react-icons/io";
+import LineChartComp from "./LineChartComp";
 
 function Stats() {
   return (
@@ -9,7 +10,9 @@ function Stats() {
         <IoIosArrowDropright className="icon" />
       </div>
       <div className="dashboard__card-stats__body">
-        <div className="chart-doughnut"></div>
+        <div className="chart-doughnut">
+          <LineChartComp />
+        </div>
       </div>
     </div>
   );
