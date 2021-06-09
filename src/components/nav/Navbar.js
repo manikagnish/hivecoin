@@ -39,7 +39,7 @@ function Navbar(props) {
             );
           })}
           <hr className="settings" />
-          <div>
+          <div className="settings-container">
             <li className="nav-text ">
               <Link to="/settings">
                 <FiIcons.FiSettings className="link-icon" />

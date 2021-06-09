@@ -1,5 +1,8 @@
 .dashboard {
   margin-left: 8rem;
+  @media (max-width: 600px) {
+    margin-left: 0;
+  }
 
   &__container {
     padding-top: 5rem;
