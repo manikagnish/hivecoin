@@ -54,11 +54,16 @@
     }
 
     &-balance--orange {
+      color: var(--color-white);
       background-image: linear-gradient(
         to right bottom,
         var(--color-primary-dark) 30%,
         var(--color-primary)
       );
+
+      h2 {
+        font-weight: 400 !important;
+      }
     }
 
     &-balance--white {
@@ -178,6 +183,7 @@
 
             @media (max-width: 500px) {
               height: 4rem;
+              width: 4rem;
             }
           }
 
@@ -186,6 +192,7 @@
             bottom: 1px;
             right: -10px;
             border: 1px solid #fff;
+            color: rgb(45, 192, 45);
             border-radius: 50%;
             padding: 0;
             background-color: #fff;
@@ -209,7 +216,7 @@
           }
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 400px) {
           font-size: 1.2rem;
           h3 {
             font-size: 1.2rem !important;

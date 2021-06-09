@@ -104,7 +104,7 @@
 
 .nav-text a:hover {
   background-color: var(--color-white);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   color: var(--color-primary-dark);
 }
 
@@ -137,7 +137,6 @@
     bottom: 0;
     width: 100vw;
     height: 6rem;
-    overflow-x: scroll;
   }
 
   .menu-bars {
@@ -169,9 +168,12 @@
   .navbar-local {
     margin-left: 0;
   }
+  .nav-text {
+    padding: 1rem;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 490px) {
   .nav-text {
     padding: 1rem 2px;
   }

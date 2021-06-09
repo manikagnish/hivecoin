@@ -8,10 +8,10 @@ function BalanceCard(props) {
       <div className="left">
         <div className="heading">
           <GiTreeBeehive className="balance-card-icon" />
-          <h2>0.00379971 BTC</h2>
+          <h2>{props.heading}</h2>
         </div>
         <div className="subheading">
-          <p>Wallet balance</p>
+          <p>{props.subheading}</p>
         </div>
       </div>
       <div className="right">

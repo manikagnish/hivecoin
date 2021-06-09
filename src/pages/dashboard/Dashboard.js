@@ -21,10 +21,18 @@ function Dashboard() {
         <Container className="dashboard__container">
           <Row>
             <Col xs="12" lg="6">
-              <BalanceCard theme="dashboard__card-balance--orange dashboard__card dashboard__card-balance" />
+              <BalanceCard
+                theme="dashboard__card-balance--orange dashboard__card dashboard__card-balance"
+                heading="0.00379971 BTC"
+                subheading="Wallet balance"
+              />
             </Col>
             <Col xs="12" lg="6">
-              <BalanceCard theme="dashboard__card-balance--white dashboard__card dashboard__card-balance" />
+              <BalanceCard
+                theme="dashboard__card-balance--white dashboard__card dashboard__card-balance"
+                heading="0.00257087 BTC"
+                subheading="Unconfirmed balance"
+              />
             </Col>
           </Row>
           <Row>
