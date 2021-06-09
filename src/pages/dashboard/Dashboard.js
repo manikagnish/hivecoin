@@ -5,9 +5,10 @@ import "./Dashboard.scss";
 import { Container, Row, Col } from "reactstrap";
 
 import BalanceCard from "./BalanceCard";
-import Activity from "./Activity";
-import Deals from "./Deals";
-import Stats from "./Stats";
+import ActivityCard from "./ActivityCard";
+import DealsCard from "./DealsCard";
+import StatsCard from "./StatsCard";
+import RecipientCard from "./RecipientCard";
 
 function Dashboard() {
   return (
@@ -28,18 +29,18 @@ function Dashboard() {
           </Row>
           <Row>
             <Col xs="12" lg="6">
-              <Activity />
+              <ActivityCard />
             </Col>
             <Col xs="12" lg="6">
-              <Deals />
+              <DealsCard />
             </Col>
           </Row>
           <Row>
             <Col xs="12" lg="6">
-              <Stats />
+              <StatsCard />
             </Col>
             <Col xs="12" lg="6">
-              recipient
+              <RecipientCard />
             </Col>
           </Row>
         </Container>
