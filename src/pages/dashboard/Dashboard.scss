@@ -125,6 +125,39 @@
         }
       }
     }
+
+    &-deals {
+      &__body {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @media (max-width: 500px) {
+          justify-content: center;
+        }
+
+        .chart-doughnut {
+          margin: 0 auto;
+        }
+
+        ul {
+          margin: 0 auto;
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 3rem;
+        }
+
+        small span {
+          color: var(--color-grey);
+        }
+
+        small.active span {
+          color: rgb(42, 177, 42);
+        }
+      }
+    }
   }
 }
 

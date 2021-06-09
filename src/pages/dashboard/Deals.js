@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosArrowDropright } from "react-icons/io";
 import { CgShapeCircle } from "react-icons/cg";
+import DoughnutChart from "./DoughnutChart";
 
 function Deals() {
   return (
@@ -10,19 +11,27 @@ function Deals() {
         <IoIosArrowDropright className="icon" />
       </div>
       <div className="dashboard__card-deals__body">
-        <div className="chart-donut"></div>
+        <div className="chart-doughnut">
+          <DoughnutChart />
+        </div>
         <ul>
           <li>
             <p>5.37890123 BTC</p>
-            <small>
-              <CgShapeCircle /> 20 active deals
+            <small className="active">
+              <span>
+                <CgShapeCircle />
+              </span>
+              20 active deals
             </small>
           </li>
           <hr />
           <li>
-            <p>5.37890123 BTC</p>
+            <p>15.45678289 BTC</p>
             <small>
-              <CgShapeCircle /> 20 active deals
+              <span>
+                <CgShapeCircle />
+              </span>
+              20 total deals
             </small>
           </li>
         </ul>

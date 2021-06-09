@@ -7,6 +7,7 @@ import { Container, Row, Col } from "reactstrap";
 import BalanceCard from "./BalanceCard";
 import Activity from "./Activity";
 import Deals from "./Deals";
+import Stats from "./Stats";
 
 function Dashboard() {
   return (
@@ -35,7 +36,7 @@ function Dashboard() {
           </Row>
           <Row>
             <Col xs="12" lg="6">
-              stats
+              <Stats />
             </Col>
             <Col xs="12" lg="6">
               recipient
