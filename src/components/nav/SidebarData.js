@@ -1,27 +1,22 @@
 import React from "react";
-import * as HiIcons from "react-icons/hi";
-import * as GiIcons from "react-icons/gi";
+import { GiBuyCard } from "react-icons/gi";
 import * as RiIcons from "react-icons/ri";
+import { HiCash } from "react-icons/hi";
 
 export const SidebarData = [
-  {
-    title: "Dashboard",
-    path: "/",
-    icon: <RiIcons.RiDashboardLine className="link-icon" />,
-    cName: "nav-text",
-  },
-  {
-    title: "Buy/Sell",
-    path: "/buysell",
-    icon: <GiIcons.GiBuyCard className="link-icon" />,
-    cName: "nav-text",
-  },
-  {
-    title: "Deals",
-    path: "/deals",
-    icon: <RiIcons.RiFileListLine className="link-icon" />,
-    cName: "nav-text",
-  },
+  // {
+  //   title: "Dashboard",
+  //   path: "/",
+  //   icon: <RiIcons.RiDashboardLine className="link-icon" />,
+  //   cName: "nav-text",
+  // },
+
+  // {
+  //   title: "Deals",
+  //   path: "/deals",
+  //   icon: <RiIcons.RiFileListLine className="link-icon" />,
+  //   cName: "nav-text",
+  // },
   {
     title: "Wallet",
     path: "/wallet",
@@ -29,9 +24,21 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Support",
-    path: "/support",
-    icon: <HiIcons.HiOutlineSupport className="link-icon" />,
+    title: "Buy",
+    path: "/buy",
+    icon: <HiCash className="link-icon" />,
     cName: "nav-text",
   },
+  {
+    title: "Sell",
+    path: "/sell",
+    icon: <GiBuyCard className="link-icon" />,
+    cName: "nav-text",
+  },
+  // {
+  //   title: "Support",
+  //   path: "/support",
+  //   icon: <HiIcons.HiOutlineSupport className="link-icon" />,
+  //   cName: "nav-text",
+  // },
 ];

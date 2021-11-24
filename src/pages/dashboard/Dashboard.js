@@ -14,7 +14,7 @@ function Dashboard() {
   return (
     <>
       <Navbar
-        name="Dashboard"
+        name="Wallet"
         icon={<RiIcons.RiDashboardLine className="navbar-icon" />}
       />
       <div className="dashboard">

@@ -1,5 +1,4 @@
 import React from "react";
-import * as FiIcons from "react-icons/fi";
 import { GoSignOut } from "react-icons/go";
 import { GiTreeBeehive } from "react-icons/gi";
 import * as AiIcons from "react-icons/ai";
@@ -40,12 +39,12 @@ function Navbar(props) {
           })}
           <hr className="settings" />
           <div className="settings-container">
-            <li className="nav-text ">
+            {/* <li className="nav-text ">
               <Link to="/settings">
                 <FiIcons.FiSettings className="link-icon" />
                 <span className="link-text">Settings</span>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-text">
               <Link to="login">
                 <GoSignOut className="link-icon" />
