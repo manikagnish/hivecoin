@@ -23,14 +23,14 @@ function Dashboard() {
             <Col xs="12" lg="6">
               <BalanceCard
                 theme="dashboard__card-balance--orange dashboard__card dashboard__card-balance"
-                heading="0.00379971 BTC"
+                heading="0.00379971 HCT"
                 subheading="Wallet balance"
               />
             </Col>
             <Col xs="12" lg="6">
               <BalanceCard
                 theme="dashboard__card-balance--white dashboard__card dashboard__card-balance"
-                heading="0.00257087 BTC"
+                heading="0.00257087 HCT"
                 subheading="Unconfirmed balance"
               />
             </Col>

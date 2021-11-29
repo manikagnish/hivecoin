@@ -26,7 +26,7 @@ function Activity() {
               </td>
               <td className="td-1">
                 <h3>
-                  <span>-</span> 0.00379971 BTC
+                  <span>-</span> 0.00379971 HCT
                 </h3>
                 <small>19.09.2016, 13:27</small>
               </td>
@@ -44,7 +44,7 @@ function Activity() {
               </td>
               <td className="td-1">
                 <h3>
-                  <span>-</span> 0.00379971 BTC
+                  <span>-</span> 0.00379971 HCT
                 </h3>
                 <small>19.09.2016, 13:27</small>
               </td>
@@ -62,7 +62,7 @@ function Activity() {
               </td>
               <td className="td-1">
                 <h3>
-                  <span>-</span> 0.00379971 BTC
+                  <span>-</span> 0.00379971 HCT
                 </h3>
                 <small>19.09.2016, 13:27</small>
               </td>

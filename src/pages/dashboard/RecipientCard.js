@@ -32,7 +32,7 @@ function RecipientCard() {
                 <span>3 deals</span>
               </td>
               <td className="td-3-recip">
-                <h3>Send BTC</h3>
+                <h3>Send HCT</h3>
                 <small>last 3 days ago</small>
               </td>
             </tr>
@@ -52,7 +52,7 @@ function RecipientCard() {
                 <span>3 deals</span>
               </td>
               <td className="td-3-recip">
-                <h3>Send BTC</h3>
+                <h3>Send HCT</h3>
                 <small>last 3 days ago</small>
               </td>
             </tr>
@@ -72,7 +72,7 @@ function RecipientCard() {
                 <span>3 deals</span>
               </td>
               <td className="td-3-recip">
-                <h3>Send BTC</h3>
+                <h3>Send HCT</h3>
                 <small>last 3 days ago</small>
               </td>
             </tr>

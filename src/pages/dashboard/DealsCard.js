@@ -16,7 +16,7 @@ function Deals() {
         </div>
         <ul>
           <li>
-            <p>5.37890123 BTC</p>
+            <p>5.37890123 HCT</p>
             <small className="active">
               <span>
                 <CgShapeCircle />
@@ -26,7 +26,7 @@ function Deals() {
           </li>
           <hr />
           <li>
-            <p>15.4567828 BTC</p>
+            <p>15.4567828 HCT</p>
             <small>
               <span>
                 <CgShapeCircle />
