@@ -5,9 +5,9 @@ import Buy from "./pages/Buy";
 import Sell from "./pages/Sell";
 // import Wallet from "./pages/Wallet";
 import Login from "./pages/Login";
-import Chat from "./pages/Chat";
 import LoginForm from "./components/form/LoginForm";
 import SignUpForm from "./components/form/SignUpForm";
+import Tracker from "./pages/Tracker";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/sell" component={Sell} />
           <Route path="/wallet" component={Dashboard} />
           <Route path="/login" component={Login} />
-          <Route path="/chat" component={Chat} />
+          <Route path="/tracker" component={Tracker} />
           <Route path="/loginform" component={LoginForm} />
           <Route path="/signupform" component={SignUpForm} />
         </Switch>

@@ -2,6 +2,8 @@
   --color-primary: #eb862c;
   --color-primary-dark: #e35930;
 
+  --color-primary-grad: #eb862c, #e35930;
+
   --color-white: #fff;
   --color-black: #282828;
   --color-grey: #9c9c9c;
@@ -52,4 +54,5 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 4em;
 }

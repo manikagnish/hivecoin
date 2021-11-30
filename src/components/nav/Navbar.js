@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.scss";
 import NavDropdown from "./NavDropdown";
+import { MdTrackChanges } from "react-icons/md";
 
 function Navbar(props) {
   return (
@@ -39,12 +40,6 @@ function Navbar(props) {
           })}
           <hr className="settings" />
           <div className="settings-container">
-            {/* <li className="nav-text ">
-              <Link to="/settings">
-                <FiIcons.FiSettings className="link-icon" />
-                <span className="link-text">Settings</span>
-              </Link>
-            </li> */}
             <li className="nav-text">
               <Link to="login">
                 <GoSignOut className="link-icon" />
@@ -53,9 +48,9 @@ function Navbar(props) {
             </li>
           </div>
           <li className="nav-text sup-chat">
-            <Link to="chat">
-              <AiIcons.AiOutlineMessage className="link-icon" />
-              <span className="link-text">Chat</span>
+            <Link to="tracker">
+              <MdTrackChanges className="link-icon" />
+              <span className="link-text">Tracker</span>
             </Link>
           </li>
         </ul>
