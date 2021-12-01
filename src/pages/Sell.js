@@ -22,7 +22,7 @@ function Sell() {
         <Form className="buy-form">
           <FormGroup>
             <Label for="exampleEmail">To</Label>
-            <Input type="number" />
+            <Input type="text" />
             <FormText>Recipient Address</FormText>
           </FormGroup>
           <FormGroup>

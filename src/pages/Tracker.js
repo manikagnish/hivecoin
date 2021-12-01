@@ -3,6 +3,7 @@ import axios from "axios";
 import Coin from "./Coin";
 import Navbar from "../components/nav/Navbar";
 import { MdTrackChanges } from "react-icons/md";
+import hive from "../images/hive.png";
 
 function Tracker() {
   const [coins, setCoins] = useState([]);
@@ -47,6 +48,15 @@ function Tracker() {
               />
             </form>
           </div>
+          <Coin
+            name="Hivecoin"
+            price="0.001$"
+            symbol="HTC"
+            marketcap="69"
+            image={hive}
+            volume={69}
+            priceChange={4}
+          />
           {filteredCoins.map((coin) => {
             return (
               <Coin
