@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hivecoin/static/css/main.f0208956.chunk.css",
-    "main.js": "/hivecoin/static/js/main.012783bc.chunk.js",
-    "main.js.map": "/hivecoin/static/js/main.012783bc.chunk.js.map",
+    "main.js": "/hivecoin/static/js/main.89dab884.chunk.js",
+    "main.js.map": "/hivecoin/static/js/main.89dab884.chunk.js.map",
     "runtime-main.js": "/hivecoin/static/js/runtime-main.a11496b0.js",
     "runtime-main.js.map": "/hivecoin/static/js/runtime-main.a11496b0.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/hivecoin/static/css/2.4c97ca4f.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.8bbb75fa.chunk.js",
     "static/css/main.f0208956.chunk.css",
-    "static/js/main.012783bc.chunk.js"
+    "static/js/main.89dab884.chunk.js"
   ]
 }
