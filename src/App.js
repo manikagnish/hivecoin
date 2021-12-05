@@ -14,7 +14,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={LoginForm} />
+          <Route path="/" exact component={Dashboard} />
           <Route path="/buy" component={Buy} />
           <Route path="/sell" component={Sell} />
           <Route path="/wallet" component={Dashboard} />
