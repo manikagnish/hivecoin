@@ -23,7 +23,7 @@ function Navbar(props) {
       <nav className="nav-menu active">
         <ul className="nav-menu-items">
           <li className="nav-toggle">
-            <Link to="/" className="menu-bars">
+            <Link to="/hivecoin/" className="menu-bars">
               <GiTreeBeehive />
               <span className="link-text">HIVECOIN</span>
             </Link>
@@ -41,14 +41,14 @@ function Navbar(props) {
           <hr className="settings" />
           <div className="settings-container">
             <li className="nav-text">
-              <Link to="login">
+              <Link to="/hivecoin/login">
                 <GoSignOut className="link-icon" />
                 <span className="link-text">SignOut</span>
               </Link>
             </li>
           </div>
           <li className="nav-text sup-chat">
-            <Link to="tracker">
+            <Link to="/hivecoin/tracker">
               <MdTrackChanges className="link-icon" />
               <span className="link-text">Tracker</span>
             </Link>

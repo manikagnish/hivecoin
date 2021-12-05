@@ -19,19 +19,19 @@ export const SidebarData = [
   // },
   {
     title: "Wallet",
-    path: "/wallet",
+    path: "/hivecoin/wallet",
     icon: <RiIcons.RiWallet3Line className="link-icon" />,
     cName: "nav-text",
   },
   {
     title: "Buy",
-    path: "/buy",
+    path: "/hivecoin/buy",
     icon: <HiCash className="link-icon" />,
     cName: "nav-text",
   },
   {
     title: "Sell",
-    path: "/sell",
+    path: "/hivecoin/sell",
     icon: <GiBuyCard className="link-icon" />,
     cName: "nav-text",
   },

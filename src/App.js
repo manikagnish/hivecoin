@@ -15,13 +15,14 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={Dashboard} />
-          <Route path="/buy" component={Buy} />
-          <Route path="/sell" component={Sell} />
-          <Route path="/wallet" component={Dashboard} />
-          <Route path="/login" component={Login} />
-          <Route path="/tracker" component={Tracker} />
-          <Route path="/loginform" component={LoginForm} />
-          <Route path="/signupform" component={SignUpForm} />
+          <Route path="/hivecoin/" exact component={Dashboard} />
+          <Route path="/hivecoin/buy" component={Buy} />
+          <Route path="/hivecoin/sell" component={Sell} />
+          <Route path="/hivecoin/wallet" component={Dashboard} />
+          <Route path="/hivecoin/login" component={Login} />
+          <Route path="/hivecoin/tracker" component={Tracker} />
+          <Route path="/hivecoin/loginform" component={LoginForm} />
+          <Route path="/hivecoin/signupform" component={SignUpForm} />
         </Switch>
       </Router>
     </>
