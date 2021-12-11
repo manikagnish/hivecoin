@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hivecoin/static/css/main.f0208956.chunk.css",
-    "main.js": "/hivecoin/static/js/main.ea93ea04.chunk.js",
-    "main.js.map": "/hivecoin/static/js/main.ea93ea04.chunk.js.map",
+    "main.css": "/hivecoin/static/css/main.4a234553.chunk.css",
+    "main.js": "/hivecoin/static/js/main.8833dce5.chunk.js",
+    "main.js.map": "/hivecoin/static/js/main.8833dce5.chunk.js.map",
     "runtime-main.js": "/hivecoin/static/js/runtime-main.a11496b0.js",
     "runtime-main.js.map": "/hivecoin/static/js/runtime-main.a11496b0.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/hivecoin/static/css/2.4c97ca4f.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.8bbb75fa.chunk.js.map": "/hivecoin/static/js/2.8bbb75fa.chunk.js.map",
     "index.html": "/hivecoin/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/hivecoin/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.f0208956.chunk.css.map": "/hivecoin/static/css/main.f0208956.chunk.css.map",
+    "static/css/main.4a234553.chunk.css.map": "/hivecoin/static/css/main.4a234553.chunk.css.map",
     "static/js/2.8bbb75fa.chunk.js.LICENSE.txt": "/hivecoin/static/js/2.8bbb75fa.chunk.js.LICENSE.txt",
     "static/media/bee1.0f16f191.svg": "/hivecoin/static/media/bee1.0f16f191.svg",
     "static/media/camp.f9b39229.svg": "/hivecoin/static/media/camp.f9b39229.svg",
     "static/media/dollar2.0293ec24.svg": "/hivecoin/static/media/dollar2.0293ec24.svg",
-    "static/media/emn.8d8ec417.jpg": "/hivecoin/static/media/emn.8d8ec417.jpg",
+    "static/media/emn.578f7ecc.jpg": "/hivecoin/static/media/emn.578f7ecc.jpg",
     "static/media/hive.12636f4d.png": "/hivecoin/static/media/hive.12636f4d.png",
-    "static/media/img-9.17e5704b.jpg": "/hivecoin/static/media/img-9.17e5704b.jpg",
+    "static/media/img-9.47f2cee9.jpg": "/hivecoin/static/media/img-9.47f2cee9.jpg",
     "static/media/joe.58754dc0.jpg": "/hivecoin/static/media/joe.58754dc0.jpg",
     "static/media/kakashi.08de2460.png": "/hivecoin/static/media/kakashi.08de2460.png",
     "static/media/well_done_i2wr.c486bdd4.svg": "/hivecoin/static/media/well_done_i2wr.c486bdd4.svg"
@@ -26,7 +26,7 @@
     "static/js/runtime-main.a11496b0.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.8bbb75fa.chunk.js",
-    "static/css/main.f0208956.chunk.css",
-    "static/js/main.ea93ea04.chunk.js"
+    "static/css/main.4a234553.chunk.css",
+    "static/js/main.8833dce5.chunk.js"
   ]
 }
